@@ -2,4 +2,4 @@
 
 cd $(dirname $0)
 tar -zcf /tmp/attachments.tgz fixture/*.*
-cat fixture/log fixture/null /tmp/attachments.tgz | python sink test-sink
+cat fixture/log fixture/null /tmp/attachments.tgz | ssh -i /tmp/sg_ssh/id_sg storageghoul@fedorapeople.org -- python sink test-e408ac41bb85224dec2496a1ce3ae9c3f1f7851f

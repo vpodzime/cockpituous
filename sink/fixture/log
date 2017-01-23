@@ -1,6 +1,7 @@
-{ "message": "Starting test", "irc": { "channel": "#cockpit" } }
+{ "github": { "requests": [ { "method": "POST", "resource": "/repos/storaged-project/storaged/statuses/e408ac41bb85224dec2496a1ce3ae9c3f1f7851f", "result": "status", "data": { "state": "success", "target_url": ":link", "description": "The build failed!", "context": "continuous-integration/jenkins/sink-sg" }}]}}
 This is the actual contents of the log
 Another line
 
-Yet anether line
-{ "message": "Finished test", "irc": { "channel": "#cockpit" } }
+Yet another line
+
+{ "message": "Failure" }
